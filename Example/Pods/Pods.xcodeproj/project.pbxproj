@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB385103E0245E7AE665C7FAF129B20 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95FACF59E9E01D11BDD6AC66D35316A /* ReplaceMe.swift */; };
+		2AAF3BB3CBD73CB2C41F902B98EA719A /* Pods-ServiceNow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB286AE78339A9923FF24769790898EC /* Pods-ServiceNow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4111FA80B3C0FFC52F1611B2181ABA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4A7B5AFFF2E41872FD2B5903D24F9FD8 /* ServiceNow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCCB77F0252D5F0482E9E6D5FC46F9 /* ServiceNow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521BAF0DBBCCC9E4FD1BB4DED34D321E /* Pods-ServiceNow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D250B8B5B89B8A3697D92229A6AE680 /* Pods-ServiceNow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E897745E1092BD2916569E1EC589FBE /* Pods-ServiceNow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB246DA241E690AF718A0D29141781 /* Pods-ServiceNow_Example-dummy.m */; };
+		772D2001DA71E3C0FD441B3D7968D15C /* Pods-ServiceNow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D8779CC6DAD227B97F828CD0961670 /* Pods-ServiceNow_Tests-dummy.m */; };
+		7AF9DBD78BC1176C93ACFE47DE477FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		91401A884E9868D791E7A31E5274484C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EED1642FFC38ADC437530F627BD21E22 /* ServiceNow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D6D1CC7E7EDC9EA5F8B1D2741DDE35 /* ServiceNow-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CBB5162AE9C666747EB9419206EE29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224BCF06A21C43953B20D3CF4577FC09;
+			remoteInfo = "Pods-ServiceNow_Example";
+		};
+		E0648B40CDF76E3AFC2FAB885678C69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF14C4875FA99F5F49D2E3D7C68B8AD;
+			remoteInfo = ServiceNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB2AEFBF6C26F9A9595706966EDAC26 /* Pods-ServiceNow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ServiceNow_Example.modulemap"; sourceTree = "<group>"; };
+		0BF38E802C94424EE1AC9B1A07808C73 /* Pods-ServiceNow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ServiceNow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CEB246DA241E690AF718A0D29141781 /* Pods-ServiceNow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ServiceNow_Example-dummy.m"; sourceTree = "<group>"; };
+		284EF4647E109DF62439C43DD6A7A73B /* Pods-ServiceNow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ServiceNow_Example-Info.plist"; sourceTree = "<group>"; };
+		2BE68F7FD84F29932760AE4B5D3C8D85 /* Pods-ServiceNow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ServiceNow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2F8BF86DC057A0964FE58C0F44114A0F /* ServiceNow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ServiceNow.modulemap; sourceTree = "<group>"; };
+		3FE315A10E0048FFE28FCD2D23300366 /* Pods-ServiceNow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ServiceNow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		44D22917215BF5B78069A09BD36DFE33 /* Pods-ServiceNow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ServiceNow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B15CB001589FDB126232759A1E09DBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D250B8B5B89B8A3697D92229A6AE680 /* Pods-ServiceNow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ServiceNow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		75767270772E8AAFB076D568482A1236 /* Pods-ServiceNow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ServiceNow_Tests-Info.plist"; sourceTree = "<group>"; };
+		763F2DC2B8AEA0DEBE14F081D7C3E3CF /* Pods_ServiceNow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ServiceNow_Example.framework; path = "Pods-ServiceNow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABCCB77F0252D5F0482E9E6D5FC46F9 /* ServiceNow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ServiceNow-umbrella.h"; sourceTree = "<group>"; };
+		7B822707CCB05968C549D2DBD0C0BA75 /* ServiceNow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ServiceNow-prefix.pch"; sourceTree = "<group>"; };
+		86570522D79B2E956EA1BA04FFC3CEF6 /* Pods-ServiceNow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ServiceNow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F721CC677DBE9DDA1E10409666AA458 /* ServiceNow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ServiceNow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEE98B1A92117DFFEB2F9ADB073765D5 /* Pods-ServiceNow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ServiceNow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B30F407380DD9D31EA054DB6E24C33BB /* ServiceNow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ServiceNow.xcconfig; sourceTree = "<group>"; };
+		B9532DB79A419E024898BA1556043AB5 /* Pods-ServiceNow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ServiceNow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE8E58E72838E12866A1C894B4E7A4E7 /* Pods-ServiceNow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ServiceNow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C353CD44FED5B5AE8D224381320BFBBC /* Pods-ServiceNow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ServiceNow_Tests.modulemap"; sourceTree = "<group>"; };
+		C459EEFFC328C198A803F8D13F50E2D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D32667B6873B640F14DD7F7BBFBF4245 /* Pods-ServiceNow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ServiceNow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4D8779CC6DAD227B97F828CD0961670 /* Pods-ServiceNow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ServiceNow_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB286AE78339A9923FF24769790898EC /* Pods-ServiceNow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ServiceNow_Example-umbrella.h"; sourceTree = "<group>"; };
+		DC34A6F9000E97D85FF736B692D6F58C /* ServiceNow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ServiceNow-Info.plist"; sourceTree = "<group>"; };
+		E0EF4CA5AAB7CDDC13C20D479AC95B37 /* ServiceNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ServiceNow.framework; path = ServiceNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10A53CCE2373C20F050AE390F51C740 /* Pods_ServiceNow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ServiceNow_Tests.framework; path = "Pods-ServiceNow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D6D1CC7E7EDC9EA5F8B1D2741DDE35 /* ServiceNow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ServiceNow-dummy.m"; sourceTree = "<group>"; };
+		E95FACF59E9E01D11BDD6AC66D35316A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ServiceNow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23AAF0301C046530CBC73D694DFA173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4111FA80B3C0FFC52F1611B2181ABA46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CE8DD8E8FA7593AB86C8A1CC10894B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91401A884E9868D791E7A31E5274484C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79689381190ACBAC53B4B3EC1A3F368C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF9DBD78BC1176C93ACFE47DE477FFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD1C4D7FAF3F2E739B8BEF334CAF68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				763F2DC2B8AEA0DEBE14F081D7C3E3CF /* Pods_ServiceNow_Example.framework */,
+				E10A53CCE2373C20F050AE390F51C740 /* Pods_ServiceNow_Tests.framework */,
+				E0EF4CA5AAB7CDDC13C20D479AC95B37 /* ServiceNow.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD97CB77604AF89678CDA90864F075F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A88E96DA4CD5DB2ED74BC1D2DD1B62E4 /* Pods-ServiceNow_Example */,
+				A177D032D77763631AF92A5D06342B1C /* Pods-ServiceNow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C43ECB7FFE17FAEEF85087CFC4916F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8BF86DC057A0964FE58C0F44114A0F /* ServiceNow.modulemap */,
+				B30F407380DD9D31EA054DB6E24C33BB /* ServiceNow.xcconfig */,
+				E7D6D1CC7E7EDC9EA5F8B1D2741DDE35 /* ServiceNow-dummy.m */,
+				DC34A6F9000E97D85FF736B692D6F58C /* ServiceNow-Info.plist */,
+				7B822707CCB05968C549D2DBD0C0BA75 /* ServiceNow-prefix.pch */,
+				7ABCCB77F0252D5F0482E9E6D5FC46F9 /* ServiceNow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ServiceNow";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A177D032D77763631AF92A5D06342B1C /* Pods-ServiceNow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C353CD44FED5B5AE8D224381320BFBBC /* Pods-ServiceNow_Tests.modulemap */,
+				B9532DB79A419E024898BA1556043AB5 /* Pods-ServiceNow_Tests-acknowledgements.markdown */,
+				D32667B6873B640F14DD7F7BBFBF4245 /* Pods-ServiceNow_Tests-acknowledgements.plist */,
+				D4D8779CC6DAD227B97F828CD0961670 /* Pods-ServiceNow_Tests-dummy.m */,
+				75767270772E8AAFB076D568482A1236 /* Pods-ServiceNow_Tests-Info.plist */,
+				6D250B8B5B89B8A3697D92229A6AE680 /* Pods-ServiceNow_Tests-umbrella.h */,
+				0BF38E802C94424EE1AC9B1A07808C73 /* Pods-ServiceNow_Tests.debug.xcconfig */,
+				3FE315A10E0048FFE28FCD2D23300366 /* Pods-ServiceNow_Tests.release.xcconfig */,
+			);
+			name = "Pods-ServiceNow_Tests";
+			path = "Target Support Files/Pods-ServiceNow_Tests";
+			sourceTree = "<group>";
+		};
+		A88E96DA4CD5DB2ED74BC1D2DD1B62E4 /* Pods-ServiceNow_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0BB2AEFBF6C26F9A9595706966EDAC26 /* Pods-ServiceNow_Example.modulemap */,
+				BE8E58E72838E12866A1C894B4E7A4E7 /* Pods-ServiceNow_Example-acknowledgements.markdown */,
+				44D22917215BF5B78069A09BD36DFE33 /* Pods-ServiceNow_Example-acknowledgements.plist */,
+				1CEB246DA241E690AF718A0D29141781 /* Pods-ServiceNow_Example-dummy.m */,
+				2BE68F7FD84F29932760AE4B5D3C8D85 /* Pods-ServiceNow_Example-frameworks.sh */,
+				284EF4647E109DF62439C43DD6A7A73B /* Pods-ServiceNow_Example-Info.plist */,
+				DB286AE78339A9923FF24769790898EC /* Pods-ServiceNow_Example-umbrella.h */,
+				AEE98B1A92117DFFEB2F9ADB073765D5 /* Pods-ServiceNow_Example.debug.xcconfig */,
+				86570522D79B2E956EA1BA04FFC3CEF6 /* Pods-ServiceNow_Example.release.xcconfig */,
+			);
+			name = "Pods-ServiceNow_Example";
+			path = "Target Support Files/Pods-ServiceNow_Example";
+			sourceTree = "<group>";
+		};
+		B018A48152124BD7062C7D891C71E589 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C459EEFFC328C198A803F8D13F50E2D9 /* LICENSE */,
+				6B15CB001589FDB126232759A1E09DBF /* README.md */,
+				9F721CC677DBE9DDA1E10409666AA458 /* ServiceNow.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FA019492F024A35C388D705045E1F138 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2CD1C4D7FAF3F2E739B8BEF334CAF68C /* Products */,
+				2DD97CB77604AF89678CDA90864F075F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA019492F024A35C388D705045E1F138 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4FC064BE842BFBC1729B426D059D1 /* ServiceNow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FAD4FC064BE842BFBC1729B426D059D1 /* ServiceNow */ = {
+			isa = PBXGroup;
+			children = (
+				E95FACF59E9E01D11BDD6AC66D35316A /* ReplaceMe.swift */,
+				B018A48152124BD7062C7D891C71E589 /* Pod */,
+				5C43ECB7FFE17FAEEF85087CFC4916F0 /* Support Files */,
+			);
+			name = ServiceNow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F131B2908165D3ADEB4B139CD820972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521BAF0DBBCCC9E4FD1BB4DED34D321E /* Pods-ServiceNow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685D75278BF1A83AEEAF0558C352A307 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAF3BB3CBD73CB2C41F902B98EA719A /* Pods-ServiceNow_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD299BD524C470E321103433AB7657C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7B5AFFF2E41872FD2B5903D24F9FD8 /* ServiceNow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CF14C4875FA99F5F49D2E3D7C68B8AD /* ServiceNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287F897255E4980B816D0783A98F573E /* Build configuration list for PBXNativeTarget "ServiceNow" */;
+			buildPhases = (
+				FFD299BD524C470E321103433AB7657C /* Headers */,
+				797A1DF7D5603F2F90A14D945AF809AD /* Sources */,
+				46CE8DD8E8FA7593AB86C8A1CC10894B /* Frameworks */,
+				ECBB7970FD676D7502ED7F845D0CF3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServiceNow;
+			productName = ServiceNow;
+			productReference = E0EF4CA5AAB7CDDC13C20D479AC95B37 /* ServiceNow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		224BCF06A21C43953B20D3CF4577FC09 /* Pods-ServiceNow_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9045A798C815E0270208CBA0C8751D /* Build configuration list for PBXNativeTarget "Pods-ServiceNow_Example" */;
+			buildPhases = (
+				685D75278BF1A83AEEAF0558C352A307 /* Headers */,
+				C572F2F645611F3BA6302C83E800C80C /* Sources */,
+				79689381190ACBAC53B4B3EC1A3F368C /* Frameworks */,
+				A511857FC8F42303CD4CA00EC13FCF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859FBB7D270B22BA0749D367C7E62600 /* PBXTargetDependency */,
+			);
+			name = "Pods-ServiceNow_Example";
+			productName = "Pods-ServiceNow_Example";
+			productReference = 763F2DC2B8AEA0DEBE14F081D7C3E3CF /* Pods_ServiceNow_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		820864A0062C77CD1BFBA002AFBA4BD2 /* Pods-ServiceNow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC508E29079C35C80F6D36A4D28824C /* Build configuration list for PBXNativeTarget "Pods-ServiceNow_Tests" */;
+			buildPhases = (
+				1F131B2908165D3ADEB4B139CD820972 /* Headers */,
+				3A80B8BFFFAEDAC121A679BADAE4DB68 /* Sources */,
+				23AAF0301C046530CBC73D694DFA173A /* Frameworks */,
+				82E9F5ED0CB94AE3125896D18C5323AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D3D0E0BECA899DEB23D2155A14FDA47 /* PBXTargetDependency */,
+			);
+			name = "Pods-ServiceNow_Tests";
+			productName = "Pods-ServiceNow_Tests";
+			productReference = E10A53CCE2373C20F050AE390F51C740 /* Pods_ServiceNow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2CD1C4D7FAF3F2E739B8BEF334CAF68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224BCF06A21C43953B20D3CF4577FC09 /* Pods-ServiceNow_Example */,
+				820864A0062C77CD1BFBA002AFBA4BD2 /* Pods-ServiceNow_Tests */,
+				0CF14C4875FA99F5F49D2E3D7C68B8AD /* ServiceNow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E9F5ED0CB94AE3125896D18C5323AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A511857FC8F42303CD4CA00EC13FCF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBB7970FD676D7502ED7F845D0CF3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A80B8BFFFAEDAC121A679BADAE4DB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772D2001DA71E3C0FD441B3D7968D15C /* Pods-ServiceNow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A1DF7D5603F2F90A14D945AF809AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB385103E0245E7AE665C7FAF129B20 /* ReplaceMe.swift in Sources */,
+				EED1642FFC38ADC437530F627BD21E22 /* ServiceNow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C572F2F645611F3BA6302C83E800C80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E897745E1092BD2916569E1EC589FBE /* Pods-ServiceNow_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		859FBB7D270B22BA0749D367C7E62600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ServiceNow;
+			target = 0CF14C4875FA99F5F49D2E3D7C68B8AD /* ServiceNow */;
+			targetProxy = E0648B40CDF76E3AFC2FAB885678C69B /* PBXContainerItemProxy */;
+		};
+		9D3D0E0BECA899DEB23D2155A14FDA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ServiceNow_Example";
+			target = 224BCF06A21C43953B20D3CF4577FC09 /* Pods-ServiceNow_Example */;
+			targetProxy = 5CBB5162AE9C666747EB9419206EE29F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26E2AA6773F3C8B4AD413C13D97BF39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE98B1A92117DFFEB2F9ADB073765D5 /* Pods-ServiceNow_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ServiceNow_Example/Pods-ServiceNow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ServiceNow_Example/Pods-ServiceNow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EB939FEBAF2D2EB8DA7544D2F6B91F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F407380DD9D31EA054DB6E24C33BB /* ServiceNow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ServiceNow/ServiceNow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ServiceNow/ServiceNow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ServiceNow/ServiceNow.modulemap";
+				PRODUCT_MODULE_NAME = ServiceNow;
+				PRODUCT_NAME = ServiceNow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D698A7C91CC1FE7164171405A84D343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86570522D79B2E956EA1BA04FFC3CEF6 /* Pods-ServiceNow_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ServiceNow_Example/Pods-ServiceNow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ServiceNow_Example/Pods-ServiceNow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F98A6D24C06C1F8C9FE3F3C2B55551A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF38E802C94424EE1AC9B1A07808C73 /* Pods-ServiceNow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ServiceNow_Tests/Pods-ServiceNow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ServiceNow_Tests/Pods-ServiceNow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A0D9A6C592E53C5C87D29CCD2B9BD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30F407380DD9D31EA054DB6E24C33BB /* ServiceNow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ServiceNow/ServiceNow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ServiceNow/ServiceNow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ServiceNow/ServiceNow.modulemap";
+				PRODUCT_MODULE_NAME = ServiceNow;
+				PRODUCT_NAME = ServiceNow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C87E7DA68FAD587CEC9FA2F858809F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE315A10E0048FFE28FCD2D23300366 /* Pods-ServiceNow_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ServiceNow_Tests/Pods-ServiceNow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ServiceNow_Tests/Pods-ServiceNow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC508E29079C35C80F6D36A4D28824C /* Build configuration list for PBXNativeTarget "Pods-ServiceNow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F98A6D24C06C1F8C9FE3F3C2B55551A /* Debug */,
+				C87E7DA68FAD587CEC9FA2F858809F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287F897255E4980B816D0783A98F573E /* Build configuration list for PBXNativeTarget "ServiceNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0D9A6C592E53C5C87D29CCD2B9BD0B /* Debug */,
+				2EB939FEBAF2D2EB8DA7544D2F6B91F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9045A798C815E0270208CBA0C8751D /* Build configuration list for PBXNativeTarget "Pods-ServiceNow_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E2AA6773F3C8B4AD413C13D97BF39E /* Debug */,
+				3D698A7C91CC1FE7164171405A84D343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

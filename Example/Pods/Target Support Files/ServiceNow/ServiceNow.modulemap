@@ -1,0 +1,6 @@
+framework module ServiceNow {
+  umbrella header "ServiceNow-umbrella.h"
+
+  export *
+  module * { export * }
+}

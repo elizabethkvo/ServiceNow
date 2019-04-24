@@ -1,0 +1,16 @@
+PODS:
+  - ServiceNow (0.1.0)
+
+DEPENDENCIES:
+  - ServiceNow (from `../`)
+
+EXTERNAL SOURCES:
+  ServiceNow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ServiceNow: 529adb7fd515d3394ec7d79164b3c781c8e40acf
+
+PODFILE CHECKSUM: 1d4c4f16141f5a8f4049b497fba8f235ce984ac3
+
+COCOAPODS: 1.6.1
